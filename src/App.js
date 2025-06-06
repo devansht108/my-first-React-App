@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <div className="content">
         <h1>{title}</h1>
+        <p>{Math.random()*20}</p>
       </div>
     </div>
   );
